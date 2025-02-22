@@ -35,6 +35,9 @@ export default function Signin(){
             localStorage.setItem("token",response.data.token);
             navigate("/Signup");
         }}></Button>
+        <Button text="Signup" onclick={
+            navigate("/Signup")
+        }></Button>    
         </div>
     </div>
 }
