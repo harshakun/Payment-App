@@ -1,15 +1,13 @@
 {
   "name": "vite-project",
   "private": true,
-  "homepage": "https://Kannan4957.github.io/paymentfrontend",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-  "dev": "vite",
-  "start": "vite preview",
-  "build": "vite build",
-  "lint": "eslint .",
-  "deploy": "gh-pages -d dist"
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
   },
   "dependencies": {
     "axios": "^1.7.9",
