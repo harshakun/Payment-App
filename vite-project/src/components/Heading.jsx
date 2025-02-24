@@ -1,8 +1,7 @@
-
-export default function Heading({heading}){
-    return <div className="flex justify-center items-center">
-        <h2 className="text-white text-center font-medium text-3xl">
+export default function Heading({ heading }) {
+    return (
+        <h2 className="text-white text-center font-medium text-lg md:text-2xl lg:text-3xl">
             {heading}
         </h2>
-    </div>
+    );
 }
