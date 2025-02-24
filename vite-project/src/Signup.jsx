@@ -40,6 +40,10 @@ export default function Signup() {
                             navigate("/Dashboard?username=" + response.data.username);
                         }}
                     />
+                    <Button 
+                        text="Signin" 
+                        onclick={() => navigate("/")} 
+                    />
                 </div>
             </div>
         </div>
